@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:"Graduate";
+    src : local("Graduate-Regular"),
+    url('./fonts/Graduate-Regular.ttf') format('truetype');
+
+}
+@font-face {
+    font-family:"Hand";
+    src: local("EduAUVICWANTHand-VariableFont_wght"),
+    url('./fonts/EduAUVICWANTHand-VariableFont_wght.ttf')format('truetype')
+
+}
+
+:root{
+    background-color: #0D0714;
+    color:#7777;
+}
